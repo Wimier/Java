@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.Controller</OriginalElement>
+  <nodes>
+    <node x="87.75" y="0.0">java.util.EventListener</node>
+    <node x="178.0" y="80.0">java.awt.event.KeyListener</node>
+    <node x="0.0" y="80.0">java.awt.event.ActionListener</node>
+    <node x="98.25" y="160.0">com.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.awt.event.KeyListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="246.5" y="55.0" />
+      <point x="162.75" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.event.ActionListener" target="java.util.EventListener" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="79.0" y="55.0" />
+      <point x="162.75" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.Controller" target="java.awt.event.KeyListener" relationship="REALIZATION">
+      <point x="0.0" y="-41.0" />
+      <point x="162.75" y="135.0" />
+      <point x="246.5" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.Controller" target="java.awt.event.ActionListener" relationship="REALIZATION">
+      <point x="0.0" y="-41.0" />
+      <point x="162.75" y="135.0" />
+      <point x="79.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="157.5" y="121.0" />
+  <SelectedNodes>
+    <node>com.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>属性</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
